@@ -1,0 +1,61 @@
+body{
+    height: 800px;
+    background:  linear-gradient(to bottom, #d3d3d3 0%, #696969 75%); 
+}
+
+h1{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 55px;
+    color: navy;
+}
+
+h5{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    font-size: 23px; 
+}
+.box{
+    display: grid;
+    width: 50%;
+    margin-left: 500px;
+    padding-top: 2%;
+    
+}
+#crct {
+ display: none;
+}
+#wrong{
+display: none;
+}
+
+input[type=number]{
+    width: 30%; 
+    padding: 12px 20px;
+    margin: 8px 0; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 55px;
+    
+  }
+  input[type=submit] {
+    width: 20%;
+    background-color: purple;
+    color:black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none; 
+    border-radius: 6px;
+    cursor: pointer; 
+    font-size: 20px;
+  }
+
+  .result{
+      margin-top: 5%;
+      font-size: 30px;
+      color: crimson;
+  }
